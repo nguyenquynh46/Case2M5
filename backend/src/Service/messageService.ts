@@ -13,22 +13,29 @@ class MessageService{
         return this.repository.find()
     }
     getAllInOrder = async () =>{
-        return await this.repository.createQueryBuilder("message")
+        return await this.repository.find({
+            relations: {
+                user: true,
+                room:true
+            }
 
-            .leftJoinAndSelect("message.user","user")
-            .leftJoinAndSelect("message.userRoom", "room")
-            .getMany()
+        })
     }
     update = async (id, data) => {
         return await this.repository.update(id, data);
     }
     findById = async (id) => {
-        return await this.repository.createQueryBuilder("message")
-
-            .leftJoinAndSelect("message.user","user")
-            .leftJoinAndSelect("message.userRoom", "room")
-            .where("user.id = :id", {id})
-            .getMany()
+        return await this.repository.find({
+            relations: {
+                user: true,
+                room:true
+            },
+            where: {
+                room:{
+                    id:id
+                }
+            }
+        })
     }
 
 }
