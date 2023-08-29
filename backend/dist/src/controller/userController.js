@@ -15,6 +15,15 @@ class UserController {
             let resultCheck = await userService_1.default.checkUser(req.body);
             res.status(200).json(resultCheck);
         };
+        this.update = async (req, res) => {
+            let data = await userService_1.default.update(req.params.id, req.body);
+            console.log(req.params.id, req.body);
+            res.json(data);
+        };
+        this.findAll = async (req, res) => {
+            let list = await userService_1.default.findAll();
+            res.json(list);
+        };
     }
 }
 exports.UserController = UserController;

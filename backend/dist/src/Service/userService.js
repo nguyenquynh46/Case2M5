@@ -11,6 +11,12 @@ const jsonwebtoken_1 = __importDefault(require("jsonwebtoken"));
 const jwt_1 = require("../middleware/jwt");
 class UserService {
     constructor() {
+        this.findAll = async () => {
+            return await this.repository.find();
+        };
+        this.update = async (id, user) => {
+            return await this.repository.update(id, user);
+        };
         this.register = async (user) => {
             user.password = await bcrypt_1.default.hash(user.password, 10);
             return this.repository.save(user);
@@ -34,10 +40,13 @@ class UserService {
                             expiresIn: 36000 * 10 * 100
                         }),
                         idUser: userFind.id,
+                        name: userFind.name,
+                        email: userFind.email,
                         username: userFind.username,
-                        role: userFind.role,
+                        password: userFind.password,
+                        status: userFind.status,
                         image: userFind.image,
-                        status: userFind.status
+                        gender: userFind.gender
                     };
                 }
                 else {

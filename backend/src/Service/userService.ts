@@ -10,6 +10,13 @@ export class UserService {
     constructor() {
         this.repository = AppDataSource.getRepository(User)
     }
+    findAll = async () => {
+        return await this.repository.find();
+    }
+    update = async (id, user) => {
+        return await this.repository.update(id, user)
+
+    }
 
     register = async (user) => {
         user.password = await bcrypt.hash(user.password, 10);
@@ -35,10 +42,13 @@ export class UserService {
                         expiresIn: 36000 * 10 * 100
                     }),
                     idUser: userFind.id,
+                    name: userFind.name,
+                    email: userFind.email,
                     username: userFind.username,
-                    role: userFind.role,
+                    password: userFind.password,
+                    status: userFind.status,
                     image:userFind.image,
-                    status:userFind.status
+                   gender:userFind.gender
                 }
             } else {
                 return 'Password is wrong'

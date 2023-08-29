@@ -6,20 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="1ef75fb0-5d2e-4b8f-ae03-a628009cd7b0" name="Changes" comment="">
       <change beforePath="E:/DemoCase2M5/.idea/workspace.xml" beforeDir="false" afterPath="E:/DemoCase2M5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="E:/DemoCase2M5/backend/dist/src/Service/messageService.js" beforeDir="false" afterPath="E:/DemoCase2M5/backend/dist/src/Service/messageService.js" afterDir="false" />
-      <change beforePath="E:/DemoCase2M5/backend/dist/src/Service/messageService.js.map" beforeDir="false" afterPath="E:/DemoCase2M5/backend/dist/src/Service/messageService.js.map" afterDir="false" />
-      <change beforePath="E:/DemoCase2M5/backend/dist/src/Service/userRoomService.d.ts" beforeDir="false" afterPath="E:/DemoCase2M5/backend/dist/src/Service/userRoomService.d.ts" afterDir="false" />
-      <change beforePath="E:/DemoCase2M5/backend/dist/src/Service/userRoomService.js" beforeDir="false" afterPath="E:/DemoCase2M5/backend/dist/src/Service/userRoomService.js" afterDir="false" />
       <change beforePath="E:/DemoCase2M5/backend/dist/src/Service/userService.d.ts" beforeDir="false" afterPath="E:/DemoCase2M5/backend/dist/src/Service/userService.d.ts" afterDir="false" />
       <change beforePath="E:/DemoCase2M5/backend/dist/src/Service/userService.js" beforeDir="false" afterPath="E:/DemoCase2M5/backend/dist/src/Service/userService.js" afterDir="false" />
       <change beforePath="E:/DemoCase2M5/backend/dist/src/Service/userService.js.map" beforeDir="false" afterPath="E:/DemoCase2M5/backend/dist/src/Service/userService.js.map" afterDir="false" />
-      <change beforePath="E:/DemoCase2M5/backend/dist/src/controller/userRoomController.js" beforeDir="false" afterPath="E:/DemoCase2M5/backend/dist/src/controller/userRoomController.js" afterDir="false" />
-      <change beforePath="E:/DemoCase2M5/backend/dist/src/controller/userRoomController.js.map" beforeDir="false" afterPath="E:/DemoCase2M5/backend/dist/src/controller/userRoomController.js.map" afterDir="false" />
+      <change beforePath="E:/DemoCase2M5/backend/dist/src/controller/userController.d.ts" beforeDir="false" afterPath="E:/DemoCase2M5/backend/dist/src/controller/userController.d.ts" afterDir="false" />
+      <change beforePath="E:/DemoCase2M5/backend/dist/src/controller/userController.js" beforeDir="false" afterPath="E:/DemoCase2M5/backend/dist/src/controller/userController.js" afterDir="false" />
+      <change beforePath="E:/DemoCase2M5/backend/dist/src/controller/userController.js.map" beforeDir="false" afterPath="E:/DemoCase2M5/backend/dist/src/controller/userController.js.map" afterDir="false" />
+      <change beforePath="E:/DemoCase2M5/backend/dist/src/router/userRouter.js" beforeDir="false" afterPath="E:/DemoCase2M5/backend/dist/src/router/userRouter.js" afterDir="false" />
+      <change beforePath="E:/DemoCase2M5/backend/dist/src/router/userRouter.js.map" beforeDir="false" afterPath="E:/DemoCase2M5/backend/dist/src/router/userRouter.js.map" afterDir="false" />
       <change beforePath="E:/DemoCase2M5/backend/dist/tsconfig.build.tsbuildinfo" beforeDir="false" afterPath="E:/DemoCase2M5/backend/dist/tsconfig.build.tsbuildinfo" afterDir="false" />
-      <change beforePath="E:/DemoCase2M5/backend/src/Service/messageService.ts" beforeDir="false" afterPath="E:/DemoCase2M5/backend/src/Service/messageService.ts" afterDir="false" />
-      <change beforePath="E:/DemoCase2M5/backend/src/Service/userRoomService.ts" beforeDir="false" afterPath="E:/DemoCase2M5/backend/src/Service/userRoomService.ts" afterDir="false" />
       <change beforePath="E:/DemoCase2M5/backend/src/Service/userService.ts" beforeDir="false" afterPath="E:/DemoCase2M5/backend/src/Service/userService.ts" afterDir="false" />
-      <change beforePath="E:/DemoCase2M5/backend/src/controller/userRoomController.ts" beforeDir="false" afterPath="E:/DemoCase2M5/backend/src/controller/userRoomController.ts" afterDir="false" />
+      <change beforePath="E:/DemoCase2M5/backend/src/controller/userController.ts" beforeDir="false" afterPath="E:/DemoCase2M5/backend/src/controller/userController.ts" afterDir="false" />
+      <change beforePath="E:/DemoCase2M5/backend/src/router/userRouter.ts" beforeDir="false" afterPath="E:/DemoCase2M5/backend/src/router/userRouter.ts" afterDir="false" />
       <change beforePath="E:/DemoCase2M5/wechat" beforeDir="false" afterPath="E:/DemoCase2M5/wechat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,6 +80,8 @@
       <workItem from="1693011321493" duration="312000" />
       <workItem from="1693142754852" duration="6981000" />
       <workItem from="1693166886677" duration="837000" />
+      <workItem from="1693204149056" duration="11262000" />
+      <workItem from="1693237626436" duration="9851000" />
     </task>
     <servers />
   </component>
